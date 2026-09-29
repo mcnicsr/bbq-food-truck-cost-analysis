@@ -14,6 +14,49 @@ This model consolidates those factors into a linked Excel decision-support tool 
 
 **Purchase Cost → Unit Cost → Recipe/Preparation Cost → Portion Cost → Menu Item Cost → Profitability Analysis**
 
+## Project Preview
+
+### Cost Analysis
+The final analysis compares finished menu-item costs with selling prices and evaluates gross profit, food-cost percentage, and suggested pricing based on an adjustable target food-cost percentage.
+
+![Cost Analysis](images/Cost%20Analysis.png)
+
+### Dynamic Menu Costing
+Menu items combine prepared proteins, sides, sauces, ingredients, and packaging into a finished unit cost. Dropdown selections allow different side combinations to be evaluated without rebuilding the underlying calculations.
+
+![Menu Items](images/Menu%20Items.png)
+
+### Meat Preparation & Yield
+Raw meat costs are adjusted for preparation yield and seasoning usage to calculate finished cost per pound. Changes to upstream ingredient or meat prices automatically propagate through downstream menu-item and profitability calculations.
+
+![Meat Prep](images/Meat%20Prep.png)
+
+### Recipe Costing
+Prepared recipes are broken down by ingredient quantity and unit cost to calculate total recipe cost and cost per serving. Dessert recipes demonstrate how multi-ingredient products are incorporated into the same linked costing model.
+
+![Dessert Recipe Costing](images/Desert%20cost.png)
+
+### Workbook Guide
+The workbook includes documentation explaining the model's purpose, assumptions, worksheet functions, and linked cost structure so the analysis can be understood and updated by another user.
+
+![Workbook Guide](images/Guide.png)
+
+## Model Flow
+
+**Purchase Cost → Unit Cost → Recipe/Preparation Cost → Portion Cost → Menu Item Cost → Profitability Analysis**
+
+## Project Preview
+
+### Cost Analysis
+The final analysis compares finished menu-item costs...
+
+![Cost Analysis](images/cost-analysis.png)
+
+[rest of Project Preview...]
+
+## Key Features
+- Standardizes bulk ingredient purchases...
+
 ## Key Features
 - Standardizes bulk ingredient purchases into usable unit costs
 - Calculates recipe and batch costs
